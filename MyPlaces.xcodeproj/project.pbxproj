@@ -13,6 +13,7 @@
 		DB9299C824A3AC8100FA958B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9299C624A3AC8100FA958B /* Main.storyboard */; };
 		DB9299CA24A3AC8300FA958B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9299C924A3AC8300FA958B /* Assets.xcassets */; };
 		DB9299CD24A3AC8300FA958B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9299CB24A3AC8300FA958B /* LaunchScreen.storyboard */; };
+		DB9299D524A3DEE700FA958B /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9299D424A3DEE700FA958B /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DB9299C924A3AC8300FA958B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB9299CC24A3AC8300FA958B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB9299CE24A3AC8300FA958B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB9299D424A3DEE700FA958B /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				DB9299C924A3AC8300FA958B /* Assets.xcassets */,
 				DB9299CB24A3AC8300FA958B /* LaunchScreen.storyboard */,
 				DB9299CE24A3AC8300FA958B /* Info.plist */,
+				DB9299D424A3DEE700FA958B /* CustomTableViewCell.swift */,
 			);
 			path = MyPlaces;
 			sourceTree = "<group>";
@@ -94,7 +97,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Ivan Belyakov";
 				TargetAttributes = {
 					DB9299BC24A3AC8100FA958B = {
@@ -140,6 +143,7 @@
 			files = (
 				DB9299C524A3AC8100FA958B /* ViewController.swift in Sources */,
 				DB9299C124A3AC8100FA958B /* AppDelegate.swift in Sources */,
+				DB9299D524A3DEE700FA958B /* CustomTableViewCell.swift in Sources */,
 				DB9299C324A3AC8100FA958B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,6 +196,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +257,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
